@@ -1,0 +1,88 @@
+body, html{
+ width: 100%;
+ max-width: 1440px;
+ margin: 0 auto;
+ background-color: #0e91fe;
+}
+/* App.css */
+body {
+  background: #e0e5ec;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background: #e0e5ec;
+  box-shadow: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #e0e5ec;
+  box-shadow: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  border: none;
+  color: #007acc;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: inset 8px 8px 16px #babecc, inset -8px -8px 16px #ffffff;
+}
+
+button svg {
+  fill: #007acc;
+}
+
+main {
+  background: #e0e5ec;
+  box-shadow: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+}
+
+.text-primary-900 {
+  color: #007acc;
+}
+
+.text-primary-100 {
+  color: #e0e5ec;
+}
+
+.text-primary-950 {
+  color: #005b99;
+}
+
+.bg-primary-100 {
+  background: #e0e5ec;
+}
+
+.bg-primary-800 {
+  background: #007acc;
+}
+
+.text-primary-200 {
+  color: #b3c7e6;
+}
+
+.border-primary-900 {
+  border-color: #007acc;
+}
+
+.border-primary-300 {
+  border-color: #b3c7e6;
+}
+
+.border-primary-950 {
+  border-color: #005b99;
+}
